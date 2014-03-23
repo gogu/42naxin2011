@@ -1,0 +1,18 @@
+﻿@charset"utf-8";
+
+/* for IE6 fixed BUG */
+body {
+	background-image:url(about:blank);
+	background-attachment:fixed;
+}
+.nav {
+	position:absolute;
+	top:expression(documentElement.scrollTop+0);
+	right:0px;
+}
+
+#cover {
+	position:absolute;
+	top:expression(documentElement.scollTop+0);
+	left:0;
+}
